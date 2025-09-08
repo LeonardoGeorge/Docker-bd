@@ -7,4 +7,8 @@ RUN npm install
 COPY . .
 
 EXPOSE 3000
-CMD ["npm", "run", "dev"]
+
+# Instalar nodemon globalmente para melhor hot reload
+RUN npm install -g nodemon
+
+CMD ["nodemon", "index.js"]

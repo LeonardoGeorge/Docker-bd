@@ -1,0 +1,8 @@
+1. Volumes nomeado (Gerenciado pelo próprio Docker)
+-> Banco de dados, uploads
+
+2. Bind Mounts (Ligação entre Host(Pasta) e Container(Pasta))
+-> Vinculo entre duas pastas
+-> Ambiente de desenvolvimento
+
+
